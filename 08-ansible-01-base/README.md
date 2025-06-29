@@ -38,3 +38,20 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+### Решение
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/1.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/2.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/3.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/4.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/5.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/6.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/7.PNG)
+
+![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/8.PNG)

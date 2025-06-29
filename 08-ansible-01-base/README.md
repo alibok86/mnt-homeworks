@@ -40,18 +40,18 @@
 ---
 
 ### Решение
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/1.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/1.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/2.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/2.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/3.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/3.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/4.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/4.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/5.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/5.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/6.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/6.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/7.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/7.png)
 
-![screen1](https://github.com/alibok86/mnt-homeworks/tree/MNT-video/08-ansible-01-base/blob/main/img/8.PNG)
+![screen1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/08-ansible-01-base/playbook/8.png)

@@ -26,6 +26,10 @@
 
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
+![1](https://raw.githubusercontent.com/alibok86/mnt-homeworks/refs/heads/MNT-video/08-ansible-02-playbook/1.png)
+![2](https://raw.githubusercontent.com/alibok86/mnt-homeworks/refs/heads/MNT-video/08-ansible-02-playbook/2.png)
+![3](https://raw.githubusercontent.com/alibok86/mnt-homeworks/refs/heads/MNT-video/08-ansible-02-playbook/3.png)
+
 ---
 ## Ansible Playbook для развертывания ClickHouse и Vector
 Назначение Playbook

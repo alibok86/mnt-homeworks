@@ -25,3 +25,62 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+
+
+# Ansible Playbook для развертывания ClickHouse, Vector и Lighthouse
+
+Playbook для автоматизированной установки и настройки стека мониторинга:
+
+- **ClickHouse** - колоночная СУБД для хранения метрик
+- **Vector** - сбор и обработка логов
+- **Lighthouse** - веб-интерфейс для визуализации
+
+## 📦 Установка компонентов
+
+### 1. Установка ClickHouse
+- Скачивание официальных RPM-пакетов
+- Установка компонентов:
+  - clickhouse-server
+  - clickhouse-client
+  - clickhouse-common-static
+- Создание БД `logs` при первом запуске
+
+### 2. Установка Vector
+- Загрузка последней версии Vector
+- Настройка конфигурации:
+  - Шаблон `vector.yml.j2`
+  - Systemd unit файл
+- Валидация конфига перед применением
+
+### 3. Установка Lighthouse
+- Установка зависимостей:
+  - Nginx
+  - Git
+  - Tar
+- Развертывание веб-интерфейса:
+  - Создание рабочей директории
+  - Загрузка статики Lighthouse
+  - Настройка прав доступа
+- Конфигурация Nginx:
+  - Удаление дефолтного конфига
+  - Добавление virtual host для Lighthouse
+  - Настройка SELinux (если включен)
+
+## 🚀 Использование
+
+### Требования
+- Ansible 2.9+
+- CentOS/RHEL 7+
+- Доступ к интернету с хостов
+
+### Запуск
+```bash
+# Полная установка
+ansible-playbook -i prod.yml site.yml
+
+# Только Lighthouse
+ansible-playbook -i prod.yml site.yml --tags lighthouse
+
+# Проверка изменений (dry-run)
+ansible-playbook -i prod.yml site.yml --check --diff

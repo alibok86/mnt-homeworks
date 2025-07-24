@@ -1,0 +1,17 @@
+---
+- hosts: clickhouse_servers
+  roles:
+    - clickhouse
+  tasks:
+    - name: Ensure ClickHouse service is running
+      ansible.builtin.service:
+        name: clickhouse-server
+        state: started
+
+- hosts: lighthouse_servers
+  roles:
+    - lighthouse
+
+- hosts: vector_servers
+  roles:
+    - vector

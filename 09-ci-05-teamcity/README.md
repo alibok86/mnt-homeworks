@@ -18,8 +18,17 @@
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+![1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/1.png)
+![2](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/2.png)
+![3](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/3.png)
+
 8. Мигрируйте `build configuration` в репозиторий.
+![4](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/4.png)
+![5](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/5.png)
+
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
+![6](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/6.png)
+
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
 12. Сделайте push всех изменений в новую ветку репозитория.
@@ -28,8 +37,11 @@
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
+![7](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/7.png)
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
+![8](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/09-ci-05-teamcity/8.png)
 19. В ответе пришлите ссылку на репозиторий.
+[repo](https://github.com/alibok86/example-teamcity)
 
 ---
 

@@ -27,9 +27,9 @@
 1. Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
 
 ## Ответ1
-\```
+```
 ![1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/1.png)
-\```
+```
 
 ## Задание 2
 
@@ -50,12 +50,12 @@
 
 ## Ответ2
 
-\```
+```
 100 - (avg by (instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
 node_load1 node_load5 node_load15
 node_memory_MemFree_bytes / 1024 / 1024
 node_filesystem_avail_bytes{mountpoint="/"} / 1024 / 1024 / 1024
-\```
+```
 
 ## Задание 3
 
@@ -63,15 +63,15 @@ node_filesystem_avail_bytes{mountpoint="/"} / 1024 / 1024 / 1024
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
 ## Ответ 3
-\```
+```
 ![1](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/2.png)
-\```
+```
 
 ## Задание 4
 
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
 1. В качестве решения задания приведите листинг этого файла.
-
+[3](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-03-grafana/netology.json)
 
 ---
 

@@ -45,6 +45,8 @@ Filebeat следует сконфигурировать для отправки
 - ваши yml-конфигурации для стека (если вы не использовали директорию help).
 
 ## ОТВЕТ 1
+![Текст описания](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/1.png)
+![Текст описания](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/2.png)
 
 ## Задание 2
 
@@ -57,8 +59,8 @@ Filebeat следует сконфигурировать для отправки
  
 ---
 ## ОТВЕТ 2
-
-
+![Текст описания](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/3.png)
+![Текст описания](https://github.com/alibok86/mnt-homeworks/blob/MNT-video/10-monitoring-04-elk/4.png)
 
 ### Как оформить решение задания
 
